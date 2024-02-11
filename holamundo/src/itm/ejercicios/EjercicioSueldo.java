@@ -1,4 +1,6 @@
-package clase1;
+package itm.ejercicios;
+
+
 import java.util.Scanner; // nesesario para poder ingresar datos por teclado
 
 public class EjercicioSueldo {

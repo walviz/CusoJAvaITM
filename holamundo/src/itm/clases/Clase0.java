@@ -1,4 +1,4 @@
-package clase1;
+package itm.clases;
 
 
 public class Clase0 {
