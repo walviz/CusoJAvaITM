@@ -10,7 +10,6 @@ public class IntercambiarValorDeVariables {
         System.out.println(letraA);
         System.out.println(letraB);
 
-
     }
 
 }
