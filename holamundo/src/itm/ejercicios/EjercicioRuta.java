@@ -1,21 +1,15 @@
 package itm.ejercicios;
-import java.util.Scanner;
+
+import javax.swing.JOptionPane;
 
 public class EjercicioRuta {
-    Scanner teclado=new Scanner(System.in);
-    int lunes;
-    int miercoles, viernes;
-    
-
-    System.out.println("Tiempo lunes: ");
-    lunes = teclado.nextInt();
-
-    System.out.println("Tiempo Miercoles: ");
-    miercoles = teclado.nextInt();
-
-    System.out.println("Tiempo Viernes: ");
-    viernes = teclado.nextInt();
-
-    teclado.close();
-
+    public static void main(String[] args) throws Exception {
+         
+        int lunes= Integer.parseInt(JOptionPane.showInputDialog("tiempo lunes "));
+        int miercoles = Integer.parseInt(JOptionPane.showInputDialog("tiempo miercoles "));
+        int viernes = Integer.parseInt(JOptionPane.showInputDialog("tiempo Viernes "));
+        double promedio =(lunes + miercoles + viernes)/3;
+        JOptionPane.showMessageDialog(null, "El promedio es "+ promedio );
+        
+    }
 }

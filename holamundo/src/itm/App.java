@@ -1,6 +1,7 @@
 package itm;
 //import itm.ejercicios.*;
 import itm.clases.*;
+import itm.ejercicios.EjercicioRuta;
 import itm.ejercicios.IntercambiarValorDeVariables;
 
 
@@ -17,8 +18,11 @@ public class App {
         //EjercicioSueldo EjercicioSueldo= new EjercicioSueldo();
         //EjercicioSueldo.sueldo();
 
-        IntercambiarValorDeVariables intercambiar = new IntercambiarValorDeVariables();
-        intercambiar.intercambiar();
+        // IntercambiarValorDeVariables intercambiar = new IntercambiarValorDeVariables();
+        // intercambiar.intercambiar();
+
+        EjercicioRuta Ejercicio= new EjercicioRuta();
+        Ejercicio.star();
         
     }
 }
