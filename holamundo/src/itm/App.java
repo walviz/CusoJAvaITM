@@ -21,8 +21,8 @@ public class App {
         // IntercambiarValorDeVariables intercambiar = new IntercambiarValorDeVariables();
         // intercambiar.intercambiar();
 
-        EjercicioRuta Ejercicio= new EjercicioRuta();
-        Ejercicio.star();
+        //EjercicioRuta Ejercicio= new EjercicioRuta();
+
         
     }
 }
