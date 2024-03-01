@@ -1,8 +1,9 @@
 package itm;
-//import itm.ejercicios.*;
+import javax.swing.JOptionPane;
+
+import itm.ejercicios.*;
 import itm.clases.*;
-import itm.ejercicios.EjercicioRuta;
-import itm.ejercicios.IntercambiarValorDeVariables;
+
 
 
 public class App {
@@ -22,6 +23,10 @@ public class App {
         // intercambiar.intercambiar();
 
         //EjercicioRuta Ejercicio= new EjercicioRuta();
+
+        //Operaciones operaciones = new Operaciones();
+        //operaciones.IngresarNumeroSuma();
+        //JOptionPane.showMessageDialog(null, "La suma de "+ String.format("%.0f", operaciones.getNum1())+" y "+String.format("%.0f", operaciones.getNum1())+" es: "+ operaciones.sumar());
 
         
     }
